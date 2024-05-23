@@ -1,0 +1,38 @@
+.Home{
+    padding: 3em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.Home div p{
+    color: red;
+}
+
+.Home div div {
+   display: flex;
+   gap: 10px;
+}
+.Home div div h5{
+    color: silver;
+}
+.Home div h3{
+    color: silver;
+
+}
+
+@media  screen and (max-width:767px) {
+
+.Home{
+    padding: 3em;
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 30px;
+    position: static;
+}
+.Home div{
+    margin: 0 auto;
+    max-width: 350px;
+}
+    
+}

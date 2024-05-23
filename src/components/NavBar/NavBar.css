@@ -1,0 +1,72 @@
+.title{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 550px;
+ }
+ .title .bi-list{
+    display: none;
+ }
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+ul li{
+    font-size: 18px;
+    padding: 1em;
+}
+.drob_btn{
+    display: none;
+    position: absolute;
+    border: 1px solid;
+    margin-top:17px;
+    background-color: #eee;
+}
+.drob_btn li{
+    padding: 0.2em;
+}
+.drob_down:hover .drob_btn{
+    display: block;
+}
+.drob_btn a:hover{
+    opacity: 0.3;
+}
+
+@media  screen and (max-width:767px) {
+
+    .title{
+       display: flex;
+       gap: 50px;
+    }
+    .title .bi-list{
+        display: block;
+     }
+    .title i {
+        scale: 1.1;
+    }
+    ul{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .navtitle{
+        position: absolute;
+        background-color: #eee;
+        min-width: 350px;
+        height: 100%;
+    }
+    .navtitle .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .navtitle ul {
+        display: block;
+    }
+        
+    }
